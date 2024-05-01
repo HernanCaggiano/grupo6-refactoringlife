@@ -1,4 +1,4 @@
-package grupo6.crud;
+package com.refactoringlife.grupo6.model;
 
 import jakarta.persistence.*;
 
