@@ -4,7 +4,6 @@ import com.refactoringlife.grupo6.model.Marca;
 import com.refactoringlife.grupo6.repository.MarcaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
 
 @Service
@@ -23,6 +22,7 @@ public class MarcaService {
     public Marca actualizarMarca(Marca marca){
         return marcaRepository.save(marca);
     }
+
     public void eliminarMarca(Long id) {
         marcaRepository.findById(id).ifPresent(marca -> {
             marca.setFechabaja(null);
