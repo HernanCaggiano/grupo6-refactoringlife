@@ -1,6 +1,6 @@
-package grupo6.crud.repository;
+package com.refactoringlife.grupo6.repository;
 
-import grupo6.crud.Marca;
+import com.refactoringlife.grupo6.model.Marca;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface MarcaRepository extends JpaRepository<Marca, Long> {

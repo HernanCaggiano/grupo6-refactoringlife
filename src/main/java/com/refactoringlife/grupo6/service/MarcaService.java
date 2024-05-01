@@ -1,13 +1,8 @@
-package grupo6.crud.service;
+package com.refactoringlife.grupo6.service;
 
-import grupo6.crud.Marca;
-import grupo6.crud.repository.MarcaRepository;
+import com.refactoringlife.grupo6.repository.MarcaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import java.sql.Timestamp;
-import java.util.ArrayList;
-import java.util.List;
 
 @Service
 public class MarcaService {

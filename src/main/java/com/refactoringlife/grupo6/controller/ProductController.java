@@ -1,4 +1,4 @@
-package grupo6.crud.controller;
+package com.refactoringlife.grupo6.controller;
 
 
 import org.springframework.web.bind.annotation.GetMapping;
