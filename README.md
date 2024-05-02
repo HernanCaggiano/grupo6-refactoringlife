@@ -1,5 +1,7 @@
 # grupo6-refactoringlife
 Repositorio para prácticas de Grupo 6 en Refactoring Life
+<<<<<<< HEAD
+=======
 
 
 Reglas
@@ -48,3 +50,4 @@ Bueno vamos con todo !
 
 
 
+>>>>>>> 75b9e9eb5b833f9078dfbf8d58b2441480ec1470
